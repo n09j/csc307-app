@@ -74,7 +74,7 @@ const addUser = (user) => {
     addUser(userToAdd);
     res.send();
   });
-  
+   
 app.listen(port, () => {
   console.log(
     `Example app listening at http://localhost:${port}`
